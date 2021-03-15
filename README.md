@@ -16,9 +16,7 @@ import EmotesJS from '../src';
 const api = new EmotesJS();
 
 console.log(api.find(e => e.shortcodes.includes('joy')));
-// Output:
 /*
-
 Emoji {
   category: 'people',
   shortcodes: [ 'joy' ],
@@ -26,6 +24,11 @@ Emoji {
   src: 'https://twemoji.maxcdn.com/v/latest/svg/1f602.svg'
 }
 
+*/
+
+console.log(api.get('😂').shortcodes);
+/*
+[ 'joy' ]
 */
 ```
 
