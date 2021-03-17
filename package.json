@@ -1,6 +1,6 @@
 {
   "name": "emotes.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -20,5 +20,6 @@
   },
   "dependencies": {
     "twemoji-parser": "^13.0.0"
-  }
+  },
+  "repository": "git@github.com:itss0n1c/emotes.js.git"
 }
